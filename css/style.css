@@ -1,0 +1,234 @@
+
+@font-face {
+  font-family: mb;
+  src: url('Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: mbi;
+  src: url('Montserrat-BoldItalic.ttf');
+}
+@font-face {
+  font-family: mm;
+  src: url('Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: mr;
+  src: url('Montserrat-Regular.ttf');
+}
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.jumbotron{
+	border-radius: 0px;
+	margin: 0;
+}
+
+.navbar {
+	background:white;
+	padding: px;
+	font-family: mm;
+	box-shadow: 0px 1px 15px 1px rgba(214, 214, 214, 0.25);
+}
+.navbar a{
+	padding: 5px;
+	margin: 10px;
+	font-size: 16px;
+}
+.navbar .btn{
+	 border-radius: 0px;
+	background: #BF592A;
+	border: 0px solid #BF592A;
+	color:white;
+}
+.navbar .dropdown-menu{
+	width: 300px;
+	border: 0px solid;
+	font-family: mm;
+	border-radius: 0px;
+	margin-top: 10px;
+	box-shadow: 0px 5px 15px 1px rgba(128, 128, 128, 0.15);
+	border-top: 5px solid #BF592A;
+}
+.navbar .dropdown-item{
+	background: transparent;
+}
+.navbar .dropdown-menu a{
+	color: gray;
+}
+.navbar .dropdown-menu a:hover{
+	color: #BF592A;
+}
+#section-main{
+	margin: 0 auto;
+	z-index: -1;
+	position: static;
+	width: 100%;
+	height:650px;
+	position: 0px;
+	
+	background: linear-gradient(70deg,rgba(255, 255, 255, 0.4) 50%,rgba(235, 235, 235, 0.4) 50%) ,url('../img/.jpg');
+	background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.swiper-container{
+	width: 130%;
+	height: 550px;
+	position: absolute;
+	left: 0;
+	margin-left: -200px;
+	overflow: hidden;
+	margin-top: -30px
+}
+.swiper-wrapper{
+	-webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.swiper-slide{
+	background-color: white;
+	padding: 0px;
+	width: 80%;
+	border-radius: 10px;
+	border: 2px solid #BF592A;
+	
+}
+
+.swiper-slide .content{
+	background: linear-gradient(70deg,rgba(191, 89, 42, 0.95) 50%,rgba(191, 89, 42, 0.85) 50%) ,url('../img/sm-1.jpg');
+	padding: 10px;
+	color: white;
+	font-family: mm;
+	background-size:cover;
+	background-position: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.swiper-slide .content h1{
+	font-family: mb;
+	padding: 10px;
+}
+.swiper-slide .content p{
+	margin: 0px;
+	padding-left: 10px;
+	margin-top: -10px;
+	font-family: mr;
+	font-size: 15px;
+}
+.swiper-slide .content-2{
+	padding: 20px;
+
+}
+.swiper-slide .content-2 p{
+		font-family: mr;
+	font-size: 16px;
+}
+.swiper-slide .content-2 h4{
+		font-family: mm;
+	font-size: 26px;
+}
+.swiper-slide .content-2 .btn{
+	padding: 20px;
+	font-family: mr;
+	border: 0px solid;
+	border-radius: 0px;
+	background: #BF592A;
+
+}
+.swiper-slide .content-2  #ecrfimg img{
+	position: absolute;
+	margin-right: px;
+	right: 0;
+	margin-top: -10px;
+	width: 220px;
+	
+}
+ @media (max-width: 1180px) {
+	 .swiper-slide .content .title {
+		 font-size: 25px;
+	}
+	 .swiper-slide .content .caption {
+		 font-size: 12px;
+	}
+}
+ @media (max-width: 1023px) {
+	 .swiper-container {
+		 height: 40vw;
+	}
+	 .swiper-container.swiper-container-coverflow {
+		 padding-top: 0;
+	}
+}
+ 
+
+
+#footer{
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	margin: 0px;
+	background: #2a2a2a;
+	position: relative;
+	bottom:;
+	color: lightgray;
+	font-family: mr;
+}
+#footer ul{
+	list-style: none;
+}
+#footer li{
+	font-size: 14px;
+}
+#footer  h4{
+	border-left: 3px solid;
+	padding-left: 10px;
+}
+#footer .card{
+	border: 0px solid;
+	border-radius: 0px;
+	padding: 10px;
+	
+	
+}
+#footer #bro .card{
+	padding: 0px;
+
+}
+#footer .cdisc{
+	width: 150px;
+	background: transparent;
+}
+
+
+#jumbointro{
+	background: linear-gradient(70deg,rgba(191, 89, 42, 0.85) 50%,rgba(191, 89, 42, 0.85) 50%) ,url('../img/sm-1.jpg');
+}
+#jumbointro h1{
+	font-family: mm;
+	color: white;
+}
+#jumbotron a{
+	color: white;
+	font-family: mr;
+}
+.swiper-slide  .nav-pills .active{
+	background:#BF592A;
+	font-family: mm;
+	border-radius: 0px;
+}
+.swiper-slide  .nav-pills a{
+	font-family: mm;
+	color: #232323;
+}
+.tab-content{
+	font-family: mr;
+	padding: 10px;
+}
