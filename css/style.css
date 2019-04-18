@@ -232,3 +232,88 @@ body{
 	font-family: mr;
 	padding: 10px;
 }
+#bridgelogo{
+	padding: 10px;
+	width:100px ;
+	margin-left: -70px;
+	background: white;
+	border-radius: 100px;
+}
+#brc{
+	position: absolute;
+	right: -60px;
+	margin-top: -140px;
+}
+
+#main-info{
+	background-color: white;
+}
+#main-info h3{
+	font-family: mm;
+	border-left: 5px solid #BF592A;
+	padding: 10px;
+	padding-left: 30px;
+}
+
+#main-info p{
+	font-family: mr;
+	color: #232323;
+}
+#main-info  .card{
+	padding: 10px;
+	border: 0px solid;
+}
+#main-info  .card img{
+	width: 210px;
+}
+#main-info h2{
+	font-family: mm; 
+	padding: 10px;
+}
+b{ 
+	font-weight: 900;
+}
+#main-info .list-group .active{
+	background: #BF592A;
+	font-family: mm;
+	border: 0px solid; 
+	border-radius: 0px;
+	
+}
+#main-info .list-group {
+	font-family: mr;
+}
+#main-info .edf{
+	position: absolute;
+	right: 0;
+	top: -50px;;
+}
+
+ .contact input{
+	border-radius: 0px ;
+	 border: 1px solid #BF592A;
+	 font-family: mr;
+	 color: #BF592A;
+}
+.contact .custom-select{
+	border-radius: 0px ;
+	 border: 1px solid #BF592A;
+	 font-family: mr;
+	 color: #BF592A;
+}
+.contact textarea{
+	border-radius: 0px ;
+	 border: 1px solid #BF592A;
+	 font-family: mr;  
+	 color: #BF592A;
+}
+.contact .btn{
+	padding: 20px;
+	width: 200px;
+	font-family: mm;
+	float: ;
+	background: #BF592A;
+	border: 0px solid;
+	border-radius: 0px;
+	color: white;
+}
